@@ -2,7 +2,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 
 # html content with selenium phantomjs driver in headless mode
-driver = webdriver.PhantomJS(executable_path = r'D:\Web Scraping\phantomjs-2.1.1-windows\phantomjs-2.1.1-windows\bin\phantomjs.exe')
+driver = webdriver.PhantomJS(executable_path = r'Your_Path')
 driver.get('https://www.edx.org')
 html_doc = driver.page_source
 
